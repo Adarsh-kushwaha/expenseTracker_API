@@ -8,7 +8,7 @@ const transactionSchema = new mongoose.Schema({
     },
 
     amount: {
-        type: number,
+        type: Number,
         required: [true, "please add some amount"]
 
     },
